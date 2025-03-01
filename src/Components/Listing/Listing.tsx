@@ -1,6 +1,6 @@
 import { TDataItem } from "../Types/DataItem.type";
 import { TData } from "../Types/Data.type";
-export const Listing = ({ data = [] }: TData<TDataItem>) => {
+export const Listing = ({ data = [] }: TData) => {
   function defineQuantityClass(quantity: number | undefined) {
     if (!quantity) return "";
     let quantityClass: string = "";

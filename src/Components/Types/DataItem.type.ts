@@ -1,13 +1,13 @@
 export type TDataItem = {
     listing_id: number;
-    title?: string | undefined;
-    description?: string | undefined;
-    price?: string | undefined;
-    currency_code?: string | undefined;
-    quantity?: number | undefined;
-    url?: string | undefined;
+    title?: string;
+    description?: string;
+    price?: string;
+    currency_code?: string;
+    quantity?: number;
+    url?: string;
     MainImage?: {
-      url_570xN: string | undefined;
+      url_570xN: string;
     };
   };
   

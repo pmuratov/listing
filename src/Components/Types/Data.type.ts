@@ -1,3 +1,2 @@
-export type TData<T> = {
-    items: T[] | [];
-  };
+import { TDataItem } from "../Types/DataItem.type";
+export type TData = TDataItem[];
